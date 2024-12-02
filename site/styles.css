@@ -1,0 +1,180 @@
+body{
+    font-family: Georgia, 'Times New Roman', Times, serif ;
+    margin: 0;
+    padding: 0%;
+  text-align: center;
+}
+
+header{
+    width: 100%;
+    background-color: black;
+    color: rgb(0, 43, 233);
+    padding: 10px 0;
+    text-align: center;
+}
+h1{
+    font-family: serif;
+    font-size: large;
+    text-align: center;
+    color: #5e0000;
+}
+
+h2{
+    font-family: 'Times New Roman', Times, serif;
+    font-size: small;
+    text-align: center;
+}
+
+h3{
+    font-family: 'Times New Roman', Times, serif;
+    font-size: smaller;
+    text-align: center;
+}
+
+.logo{
+background-color: #c48c88;
+text-align: center;
+
+}
+
+.gradient{ background:#ebdfc6}
+
+
+  
+  
+
+  
+
+.container{
+    margin: 0 auto;
+    width: 980px;
+    height: auto;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    padding: 20px;
+}
+
+
+.product{
+    background-color: #973129;
+    width: 200px;
+    margin: 5px;
+    padding: 5px;
+    box-shadow: 0 0 10px rgba(148, 116, 116, 0.1);
+    color: aliceblue;
+    text-align: center;
+}
+
+
+.product img{
+    max-width: 100%;
+    height: auto;
+}
+
+
+nav ul {
+    list-style: none;
+    padding: 0%;
+    margin-top: 20px;
+}
+
+nav ul li{
+    display: inline;
+    margin: 0 10px;
+}
+
+
+
+section{
+    padding: 20px;
+    margin: 0;
+}
+
+section:nth-of-type(even) {
+    background: #f4f4f4;
+}
+ 
+footer{
+    background: #c48c88;
+    color: white;
+    text-align: center;
+    padding: 10px 0;
+    width: 100%;
+    bottom: 0;
+}
+
+.form-container {
+    background: #fff;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0,0,0,0.1);
+    width: 100%;
+    max-width: 500px;
+}
+
+.form-group{
+    margin-bottom: 15px;
+}
+
+.form-group label {
+    display: block;
+    margin-bottom: 5px;
+}
+
+form-group input, form-group textarea {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+}
+
+.form-group textarea {
+    resize: vertical;
+}
+
+.form-group button {
+    background-color:#330a0a;
+    color: #fff;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 4px;
+    cursor: pointer;
+    font-size: 16px;
+}
+
+.form-group button:hover {
+    background-color: #ffffff;
+}
+
+.contato{
+    background-color: #5e0000;
+    color: #5e0000;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+
+#response-message {
+    text-align: center;
+    margin-top: 20px;
+    color: #333;
+}
+section {
+    padding: 40px 0;
+  }
+  
+  .carousel-inner img {
+    height: 400px;
+    object-fit: cover;
+  }
+  
+  .navbar-nav .nav-link {
+    font-weight: bold;
+  }
+  
+  @media (max-width: 768px) {
+    .carousel-inner img {
+      height: 300px;
+    }
+  }
+  
